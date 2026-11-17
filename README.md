@@ -54,7 +54,7 @@ Hermes의 HTTPS 주소와 인증은 Hermes 브리지 전용이며, 모바일 KK-
 
 ## 브리지 실행
 
-GitHub 릴리즈에서 브리지의 `server.mjs`, `package.json`, `.env.example`을 각각 내려받아 서버의 빈 디렉터리에 저장합니다. Node.js 24 이상이 필요합니다.
+GitHub 릴리즈에서 브리지의 `server.mjs`, `package.json`, `bridge-env.example`을 각각 내려받아 서버의 빈 디렉터리에 저장합니다. `bridge-env.example`을 `.env.example`로 이름을 바꿉니다. Node.js 24 이상이 필요합니다.
 
 ```bash
 npm install --omit=dev
