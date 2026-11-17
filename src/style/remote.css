@@ -1,0 +1,17 @@
+.nerodian-remote.kkn-chat {
+  font-family: var(--font-interface);
+  --kkn-desktop-shift: 0px;
+  --kkn-mobile-shift: 1px;
+}
+.nerodian-ssh-profile-json { width: 100%; min-height: 180px; resize: vertical; font-family: var(--font-monospace); }
+.nerodian-remote .kkn-model-controls { flex: 1 1 0; flex-wrap: wrap; }
+.nerodian-remote .kkn-provider-select { flex: 0 1 100px; inline-size: auto; }
+.nerodian-remote .kkn-model-input { flex: 1 1 120px; inline-size: 0; min-width: 0; }
+.nerodian-remote .kkn-status { overflow-wrap: anywhere; }
+.nerodian-remote .kkn-markdown { word-break: keep-all; overflow-wrap: anywhere; }
+.nerodian-remote .kkn-send:disabled { display: inline-flex; }
+.nerodian-remote .kkn-request pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.nerodian-remote .kkn-request button { margin: var(--size-4-1); }
+.is-mobile .nerodian-remote .kkn-send { min-width: 44px; min-height: 44px; }
+.is-mobile .nerodian-remote .kkn-toolbar button { min-width: 44px; min-height: 44px; }
+.is-mobile .nerodian-remote .kkn-model-input { min-height: 44px; }

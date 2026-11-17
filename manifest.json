@@ -1,0 +1,10 @@
+{
+  "id": "KK-Nerodian",
+  "name": "KK-Nerodian",
+  "version": "0.1.0",
+  "minAppVersion": "1.13.0",
+  "description": "Run Codex and Claude Code locally, over SSH, or from mobile through an authenticated remote bridge.",
+  "author": "Jin, based on Claudian by Yishen Tu",
+  "authorUrl": "https://github.com/YishenTu",
+  "isDesktopOnly": false
+}
